@@ -123,10 +123,7 @@
 
   body {
     font-family: 'Radio Canada', sans-serif;
-    background: url("img/background.jpg") no-repeat center center;
-    background-size: cover;
-    height: 90vh;
-    background-attachment: fixed;
+    
   }
 
   #box1 {
@@ -190,7 +187,6 @@
 
   #box5 {
     background-color: #15151b;
-    height: 10vh;
     color: white;
     text-align: center;
     line-height: 100px;
