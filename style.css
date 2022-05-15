@@ -10,7 +10,7 @@
   a {
     color: #fff;
     text-decoration: none;
-    transition: 0.3s;
+    transition: none;
   }
   
   a:hover {
@@ -41,6 +41,7 @@
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    
   }
   
   .mobile-menu {
@@ -124,6 +125,7 @@
   body {
     font-family: 'Radio Canada', sans-serif;
     overflow-x: hidden;
+    background-color: #23232e;
   }
 
   #box1 {
@@ -138,8 +140,9 @@
 
   #box2 {
     background-color: #23232e;
-    width: 100%;
+    width: 80%;
     height: 40%;
+    margin: auto;
   }
   
 
@@ -205,9 +208,14 @@
   }
 
   .teste {
-    width: 70%;
+    width: 100%;
     float: left;
     position: relative;
+    float: left;
+    position: relative;
+    margin-bottom: 5%;
+    border: 10px solid white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.719);
   }
 
   button.slick-prev {
@@ -219,7 +227,7 @@
     background-image: url(img/prev.png);
     position: absolute;
     z-index: 1;
-    top: 33%;
+    top: 40%;
     left: 15%;
   }
 
@@ -232,19 +240,13 @@
     background-image: url(img/prox.png);
     position: absolute;
     z-index: 1;
-    top: 33%;
+    top: 40%;
     right: 15%;
-  }
-
-  .teste {
-    width: 100%;
-    float: left;
-    position: relative;
   }
 
   .slick-dots li button {
     font-size: 0px;
-    border: 3px solid white;
+    border: 3px solid rgb(70, 17, 17);
     width: 15px;
     height: 15px;
     margin: 5px;
@@ -265,7 +267,7 @@
   }
 
   li.slick-active button {
-    background-color: rgb(219, 28, 28);
+    background-color: rgb(255, 64, 64);
   }
 
   .slick-list {
@@ -357,4 +359,33 @@
     .textocontato{
       font-size: 12px;
     }
+  }
+
+  #link-topo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background-color: #23232ed8;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.521);
+    transition: 0.3s;
+  }
+
+  #link-menu {
+    transition: 0.2s;
+  }
+
+  .link-curriculo {
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  a.link-curriculo:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
   }
