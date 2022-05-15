@@ -29,8 +29,8 @@
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #15151b;
-    height: 10vh;
     font-size: 20px;
+    padding: 2%;
   }
   
   .nav-list {
@@ -218,7 +218,7 @@
     background-color: transparent;
     background-image: url(img/prev.png);
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     top: 33%;
     left: 15%;
   }
@@ -231,7 +231,7 @@
     background-color: transparent;
     background-image: url(img/prox.png);
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     top: 33%;
     right: 15%;
   }
@@ -315,7 +315,7 @@
 
   @media (max-width: 459px) {
     .slick-dots {
-      left: 39%;
+      left: 30%;
     }
   }
 
@@ -325,8 +325,36 @@
       width: 80%;
       margin: auto;
     }
+
     #box4-2{
       width: 80%;
       margin: auto;
+    }
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  @media (max-width: 350px) {
+    #box3 {
+      height: 1090px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    #box1 {
+      height: 770px;
+    }
+    #box5{
+      font-size: 9px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .textocontato{
+      font-size: 12px;
     }
   }
