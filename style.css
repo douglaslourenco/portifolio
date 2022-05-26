@@ -124,7 +124,7 @@
 
   body {
     font-family: 'Radio Canada', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background-color: #23232e;
   }
 
@@ -208,11 +208,8 @@
   }
 
   .teste {
-    width: 100%;
-    float: left;
-    position: relative;
-    float: left;
-    position: relative;
+    margin: auto;
+    width: 60%;
     margin-bottom: 5%;
     border: 10px solid white;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.719);
@@ -388,4 +385,5 @@
   a.link-curriculo:hover {
     background-color: rgb(255, 255, 255);
     color: black;
+    
   }
